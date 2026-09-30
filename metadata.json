@@ -1,0 +1,6 @@
+{
+  "name": "VerdantDream - AI Garden Designer & Seasonal Visualizer",
+  "description": "Design your dream garden with intelligent layout generation, interactive 2D canvas planner, 4-season visual transformation, AI image creation & editing, and cinematic Veo video walkthroughs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

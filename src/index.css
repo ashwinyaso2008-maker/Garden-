@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #0c1410;
+    color: #e5ede7;
+  }
+}
+
+/* Custom scrollbar for planner elements */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #101c16;
+}
+::-webkit-scrollbar-thumb {
+  background: #253d30;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #375945;
+}
